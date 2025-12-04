@@ -13,7 +13,7 @@ Personal Computer Turbo C Compiler
 7.	Choose the file and verify the go back protocol operation.
 
 # PROGRAM
-
+```
 #include <stdio.h>
 /* Assume 7 frames of data are to sent using GO BACK N ARQW*/ #define window_size 4
 void main()
@@ -40,10 +40,11 @@ printf("No Acknowlegement for frame %d... \n",ack); printf("Resending frames sta
 }
 printf("\n All frames sent successfully.\n");
 }
-
+```
 # OUTPUT
 
- 
+ <img width="1118" height="925" alt="image" src="https://github.com/user-attachments/assets/02c87ae7-e310-4108-9d3a-68434c18bac7" />
+
 
 
 
